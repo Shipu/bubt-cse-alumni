@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.main');
+});
+
+Route::get('members', function () {
+    return view('pages.member');
 });

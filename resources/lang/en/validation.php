@@ -146,6 +146,19 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'general_tab' => 'General',
+        'personal_info_tab' => 'Personal Info',
+        'gender' => 'Gender',
+        'blood_group' => 'Blood Group',
+        'department_id' => 'Department',
+        'shift' => 'Shift',
+        'intake' => 'Intake',
+        'name' => 'Name',
+        'university_id' => 'University Id',
+        'designation' => 'Designation',
+        'type' => 'Type',
+        'mobile' => 'Mobile',
+    ],
 
 ];

@@ -34,4 +34,9 @@ class BackpackUser extends User
     {
         return $this->email;
     }
+
+    public function user_profile()
+    {
+        return $this->hasOne(UserProfile::class);
+    }
 }

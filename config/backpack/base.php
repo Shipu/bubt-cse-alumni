@@ -24,7 +24,7 @@ return [
     // ----
 
     // Project name. Shown in the window title.
-    'project_name' => 'Laravel Base',
+    'project_name' => 'CSE Alumni',
 
     // Content of the HTML meta robots tag to prevent indexing and link following
     'meta_robots_content' => 'noindex, nofollow',
@@ -64,7 +64,7 @@ return [
     // ------
 
     // Menu logo. You can replace this with an <img> tag if you have a logo.
-    'project_logo'   => '<b>Laravel</b>&nbsp;Base',
+    'project_logo'   => '<b>CSE</b>&nbsp;Alumni',
 
     // Show / hide breadcrumbs on admin panel pages.
     'breadcrumbs' => true,
