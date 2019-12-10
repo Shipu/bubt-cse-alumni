@@ -159,6 +159,7 @@ return [
         'designation' => 'Designation',
         'type' => 'Type',
         'mobile' => 'Mobile',
+        'passing_year' => 'Passing Year'
     ],
 
 ];

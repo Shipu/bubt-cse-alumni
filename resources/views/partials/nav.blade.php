@@ -1,6 +1,6 @@
 <nav class="navbar navbar-reverse navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand smooth" href="">BUBT CSE ALUMNI</a>
+        <a class="navbar-brand smooth" href="{{ route('home') }}">BUBT CSE ALUMNI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -11,7 +11,7 @@
                 <li class="nav-item"><a href="#mission" class="nav-link">Mission</a></li>
                 <li class="nav-item"><a href="#vision" class="nav-link">Vision</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#members" class="nav-link">Members</a></li>
+                <li class="nav-item"><a href="{{ route('members') }}" class="nav-link">Members</a></li>
                 <li class="nav-item d-lg-none d-md-block"><a href="{{ backpack_url('login') }}" class="nav-link smooth"
                                                              target="_blank">Login</a></li>
             </ul>

@@ -13,8 +13,8 @@
 
 Route::get('/', function () {
     return view('pages.main');
-});
+})->name('home');
 
 Route::get('members', function () {
     return view('pages.member');
-});
+})->name('members');

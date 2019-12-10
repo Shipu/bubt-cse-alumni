@@ -5,7 +5,7 @@
         <div class="hero">
             <div class="container">
                 <div class="text text-center text-lg-left">
-                    <a href="https://getstisla.com/blog/open-source" class="headline">
+                    <a href="{{ backpack_url('register')  }}" class="headline">
                         <div class="badge badge-danger">Join</div>
                         BUBT CSE Alumni Community &nbsp; <i class="fas fa-chevron-right"></i>
                     </a>
@@ -108,7 +108,7 @@
     </section>
 
     <section id="design" class="section-design">
-        <div class="container">
+        <div class="container" id="vision">
             <div class="row">
                 <div class="col-lg-5 d-none d-lg-block">
                     <img src="https://getstisla.com/landing/undraw_processing_qj6a.svg" alt="user flow" class="img-fluid">
@@ -175,7 +175,7 @@
         </div>
     </section>
     <section id="components" class="section-design section-design-right">
-        <div class="container">
+        <div class="container" id="about">
             <div class="row">
                 <div class="col-lg-7 pr-lg-5 pr-0">
                     <div class="badge badge-primary mb-3">About</div>

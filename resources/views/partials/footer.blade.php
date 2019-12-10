@@ -53,10 +53,10 @@
                 <h3 class="text-capitalize">BUBT CSE ALUMNI</h3>
                 <div class="pr-lg-5">
                     <p>
-                        Bangladesh University of Business and Technology <a href="https://bubt.edu.bd">( BUBT )</a>
+                        Bangladesh University of Business and Technology <a href="https://bubt.edu.bd" target="_blank">( BUBT )</a>
                         Rupnagar, Dhaka - 1216
                     </p>
-                    <p>© Handcrafted with <i class="fas fa-heart text-danger"></i> by Shipu Ahamed</p>
+                    <p>© With <i class="fas fa-heart text-danger"></i> handcrafted by <a href="http://fb.me/to.shipu" target="_blank">Shipu Ahamed </a></p>
                     {{--                    <div class="mt-4 social-links">--}}
                     {{--                        <a href="https://github.com/stisla"><i class="fab fa-github"></i></a>--}}
                     {{--                        <a href="https://twitter.com/getstisla"><i class="fab fa-twitter"></i></a>--}}
@@ -68,25 +68,25 @@
                     <div class="col-md-4">
                         <h4>Committees</h4>
                         <ul>
-                            <li><a href="">Executive Members</a></li>
-                            <li><a href="">Advisory Committee</a></li>
-                            <li><a href="">Adhoc Committee</a></li>
+                            <li><a href="{{ route('members') }}">Executive Members</a></li>
+                            <li><a href="{{ route('members') }}">Advisory Committee</a></li>
+                            <li><a href="{{ route('members') }}">Adhoc Committee</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h4>Our Partner</h4>
                         <ul>
-                            <li><a href="">Deligram</a></li>
-                            <li><a href="">Company 1</a></li>
-                            <li><a href="">Company 2</a></li>
+                            <li><a href="#">Deligram</a></li>
+                            <li><a href="#">Company 1</a></li>
+                            <li><a href="#">Company 2</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <h4>Alumni</h4>
                         <ul>
-                            <li><a href="">Job Opportunity</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="#">Job Opportunity</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
