@@ -34,7 +34,7 @@
 
                             <div class="col-md-2 col-6 col-sm-2 col-lg-2 mb-4 mb-md-0">
                                 <div class="user-item">
-                                    <img alt="image" src="{{ $user->avatar ?? 'assets/img/avatar/avatar-2.png'}}" class="img-fluid">
+                                    <img alt="image" src="{{ $user->avatar ?? backpack_avatar_url($user) }}" class="img-fluid">
                                     <div class="user-details">
                                         <div class="user-name">{{ $user->name }}</div>
                                         <div class="text-job text-muted">{{ $user->designation }}</div>
@@ -76,7 +76,7 @@
 
                             <div class="col-md-2 col-6 col-sm-2 col-lg-2 mb-4 mb-md-0">
                                 <div class="user-item">
-                                    <img alt="image" src="{{ $user->avatar ?? 'assets/img/avatar/avatar-2.png'}}" class="img-fluid">
+                                    <img alt="image" src="{{ $user->avatar ?? backpack_avatar_url($user) }}" class="img-fluid">
                                     <div class="user-details">
                                         <div class="user-name">{{ $user->name }}</div>
                                         <div class="text-job text-muted">{{ $user->designation }}</div>
@@ -118,7 +118,7 @@
 
                             <div class="col-md-2 col-6 col-sm-2 col-lg-2 mb-4 mb-md-0">
                                 <div class="user-item">
-                                    <img alt="image" src="{{ $user->avatar ?? 'assets/img/avatar/avatar-2.png'}}" class="img-fluid">
+                                    <img alt="image" src="{{ $user->avatar ?? backpack_avatar_url($user) }}" class="img-fluid">
                                     <div class="user-details">
                                         <div class="user-name">{{ $user->name }}</div>
                                         <div class="text-job text-muted">{{ $user->designation }}</div>
@@ -160,7 +160,7 @@
 
                             <div class="col-md-2 col-6 col-sm-2 col-lg-2 mb-4 mb-md-0">
                                 <div class="user-item">
-                                    <img alt="image" src="{{ $user->avatar ?? 'assets/img/avatar/avatar-2.png'}}" class="img-fluid">
+                                    <img alt="image" src="{{ $user->avatar ?? backpack_avatar_url($user) }}" class="img-fluid">
                                     <div class="user-details">
                                         <div class="user-name">{{ $user->name }}</div>
                                         <div class="text-job text-muted">{{ $user->designation }}</div>
