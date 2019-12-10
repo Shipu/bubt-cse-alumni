@@ -12,15 +12,24 @@
                 <li class="nav-item"><a href="#vision" class="nav-link">Vision</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="{{ route('members') }}" class="nav-link">Members</a></li>
-                <li class="nav-item d-lg-none d-md-block"><a href="{{ backpack_url('login') }}" class="nav-link smooth"
-                                                             target="_blank">Login</a></li>
+                @if(auth()->check())
+                    <li class="nav-item d-lg-none d-md-block"><a href="{{ backpack_url('dashboard') }}" class="nav-link smooth">Dashboard</a></li>
+                @else
+                    <li class="nav-item d-lg-none d-md-block"><a href="{{ backpack_url('login') }}" class="nav-link smooth">Login</a></li>
+                @endif
             </ul>
             <ul class="navbar-nav ml-auto align-items-lg-center d-none d-lg-block">
                 <li class="ml-lg-3 nav-item">
-                    <a href="{{ backpack_url('login') }}" class="btn btn-round smooth btn-icon icon-left"
-                       target="_blank">
-                        <i class="fas fa-sign-in-alt"></i> Login
-                    </a>
+                    @if(auth()->check())
+                        <a href="{{ backpack_url('dashboard') }}" class="btn btn-round smooth btn-icon icon-left">
+                            <i class="fas fa-sign-in-alt"></i> Dashboard
+                        </a>
+                    @else
+                        <a href="{{ backpack_url('login') }}" class="btn btn-round smooth btn-icon icon-left"
+                           target="_blank">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </a>
+                    @endif
                 </li>
             </ul>
         </div>

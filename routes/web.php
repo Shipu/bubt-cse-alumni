@@ -13,8 +13,9 @@
 
 Route::get('/', function () {
     return view('pages.main');
-})->name('home');
+})->name('home')->middleware(['web']);
 
 Route::get('members', function () {
-    return view('pages.member');
+    $users = \App\Models\User::all()->groupBy('type');
+    return view('pages.member', compact('users'));
 })->name('members');
