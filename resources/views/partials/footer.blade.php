@@ -57,10 +57,11 @@
                         Rupnagar, Dhaka - 1216
                     </p>
                     <p>© With <i class="fas fa-heart text-danger"></i> handcrafted by <a href="http://fb.me/to.shipu" target="_blank">Shipu Ahamed </a></p>
-                    {{--                    <div class="mt-4 social-links">--}}
-                    {{--                        <a href="https://github.com/stisla"><i class="fab fa-github"></i></a>--}}
-                    {{--                        <a href="https://twitter.com/getstisla"><i class="fab fa-twitter"></i></a>--}}
-                    {{--                    </div>--}}
+                    <div class="mt-4 social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-7">
