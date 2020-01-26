@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->tinyInteger('type')->default(\App\Enums\UserType::ALUMNI);
+            $table->tinyInteger('type')->default(\App\Enums\UserType::MEMBER);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('designation')->nullable();

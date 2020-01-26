@@ -11,7 +11,7 @@
                     </a>
                     <h1>Welcome to BUBT CSE Alumni Community</h1>
                     <p class="lead">
-                        If you clim you are a ex-bubtian of cse department then please join us for build strong community in bubt cse alumni.
+                        You are most welcome to stay connected with the CSE alumni living and working in Bangladesh and other countries.
                     </p>
                     <div class="cta">
                         <a class="btn btn-lg btn-warning btn-icon icon-right" href="{{ backpack_url('register') }}">Registration <i class="fas fa-chevron-right"></i></a> &nbsp;
@@ -64,42 +64,42 @@
                                 <i class="fas fa-mobile-alt"></i>
                             </div>
                             <h5>Career Opportunity</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam!</p>
+                            <p>BUBT CSE ALUMNI Members can utilize career related assistance through our alumni mentors.  Noteworthy alumni help get you on the right career path before, and after graduation.</p>
                         </div>
                         <div class="feature">
                             <div class="feature-icon">
                                 <i class="fab fa-html5"></i>
                             </div>
                             <h5>Scholarship</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam!</p>
+                            <p>Alumni Association members across the globe develop scholarships to assist students with the rising cost of educational expenses.</p>
                         </div>
                         <div class="feature">
                             <div class="feature-icon">
                                 <i class="fas fa-fire"></i>
                             </div>
                             <h5>Skill Development</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam!</p>
+                            <p>From technology to business, we have curated a list of resources that we believe can help you hone your skills and land your next job. Many of these resources include online and in person trainings along with certificate programs to help boost your resume.</p>
                         </div>
                         <div class="feature">
                             <div class="feature-icon">
                                 <i class="fas fa-check"></i>
                             </div>
                             <h5>Community</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam!</p>
+                            <p>Meet new people, make connections, and enhance relationships at alumni events throughout the year.</p>
                         </div>
                         <div class="feature">
                             <div class="feature-icon">
                                 <i class="fas fa-columns"></i>
                             </div>
                             <h5>Charity</h5>
-                            <p>Based on Bootstrap 4, one of the popular flexbox frameworks.</p>
+                            <p>Clubs are formed on select geographic regions and disciplines to offer opportunities of service, friendship, and networking.</p>
                         </div>
                         <div class="feature">
                             <div class="feature-icon">
                                 <i class="fas fa-chevron-right"></i>
                             </div>
-                            <h5>And Others</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam!</p>
+                            <h5>Volunteer Opportunities</h5>
+                            <p>Interact with alumni who hail from diverse backgrounds and preserve BUBT CSE ALUMNI  community spirit by participating in the life of the university while you assist students and serve other alumni.</p>
                         </div>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
                 </div>
                 <div class="col-lg-7 pl-lg-5 col-md-12">
                     <div class="badge badge-primary mb-3">Vision</div>
-                    <h2> Lorem ipsum dolor sit amet <span class="text-primary">consectetur adipisicing</span>, Dolorem <span class="text-primary">doloribus</span> doloribus</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, doloribus eos in laboriosam doloribus qui saepe. Cupiditate distinctio doloremque earum facere ipsum molestia.</p>
+{{--                    <h2> Lorem ipsum dolor sit amet <span class="text-primary">consectetur adipisicing</span>, Dolorem <span class="text-primary">doloribus</span> doloribus</h2>--}}
+                    <p class="">To develop and strengthen ties between our Alumni and the Department of CSE by providing diverse tangible benefits including career services, networking opportunities, special events and lectures, and the opportunity to connect with and inspire students and graduates.</p>
                 </div>
             </div>
         </div>
@@ -181,7 +181,7 @@
                     <div class="badge badge-primary mb-3">About</div>
 
                     <h2><span class="text-primary">BUBT CSE Alumni</span></h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet asperiores, atque cupiditate et explicabo itaque maiores modi, neque nihil perspiciatis, similique?</p>
+                    <p class="lead">The world gets more complicated with every passing day. We get involved with our families and work and suddenly we’ve lost touch with those outside that close circle. The Alumni Association can help you stay connected to those friends and to the vast resources available here, from the faculty that taught and guided you to our libraries, seminars and symposia, web sites, social media and an extraordinary variety of “stay connected” programs designed with you in mind. They are all designed to support you as you pursue your post-academic life and career.</p>
                 </div>
                 <div class="col-lg-5 d-none d-lg-block">
                     <div class="abs-images">
