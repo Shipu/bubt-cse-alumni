@@ -53,7 +53,7 @@
             <div class="row mb-5 text-center">
                 <div class="col-lg-10 offset-lg-1">
                     <h2>Why you <span class="text-primary">join</span> us ?</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+{{--                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>--}}
                 </div>
             </div>
             <div class="row">
