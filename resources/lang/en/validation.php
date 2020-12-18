@@ -162,7 +162,7 @@ return [
         'passing_year' => 'Passing Year',
         'reference' => 'Reference',
         'company_name' => 'Company Name',
-        'job_position' => 'Job Position',
+        'job_position' => 'Current Position',
     ],
 
 ];

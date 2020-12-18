@@ -165,7 +165,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "mehaakmehi@gmail.com",
                 "designation" => "Office Secretary",
-                "type" => \App\Enums\UserType::EXECUTIVE,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -174,7 +174,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "hasanbdmehadi2@gmail.com",
                 "designation" => "Office Secretary",
-                "type" => \App\Enums\UserType::EXECUTIVE,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
 
@@ -193,7 +193,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "tushar.roy.cse@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -202,7 +202,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "mahmudnuman@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -211,7 +211,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "tariqul4911@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -220,7 +220,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "rayhan.ahmed5000@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -229,7 +229,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "samiyamow613@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -238,7 +238,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "mahbub.fahad@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
             [
@@ -247,7 +247,7 @@ class UsersTableSeeder extends Seeder
                 "gender" => \App\Enums\GenderEnum::NOT_SHARING,
                 "email" => "avishekh.bhowmik71@gmail.com",
                 "designation" => "General Members",
-                "type" => \App\Enums\UserType::MEMBER,
+                "type" => \App\Enums\UserType::GENERAL,
                 "password" => bcrypt(self::DEFAULT_PASSWORD),
             ],
         ]);
