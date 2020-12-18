@@ -60,12 +60,15 @@ class RegisterController extends Controller
             'name'                             => 'required|max:255',
             backpack_authentication_column()   => 'required|'.$email_validation.'max:255|unique:'.$users_table,
             'password'                         => 'required|min:6|confirmed',
-            'intake'    => 'required|min:1|numeric',
+            'intake'    => 'min:1|numeric',
             'department_id' => 'required',
-            'passing_year' => 'required',
+//            'passing_year' => 'required',
             'university_id' => 'required',
             'shift' => 'required',
             'mobile' => 'required',
+            'reference' => 'required',
+            'company_name' => 'required',
+            'job_position' => 'required',
         ]);
     }
 
@@ -96,6 +99,9 @@ class RegisterController extends Controller
             'passing_year' => $data['passing_year'],
             'shift' => $data['shift'],
             'mobile' => $data['mobile'],
+            'reference' => $data['reference'],
+            'company_name' => $data['company_name'],
+            'job_position' => $data['job_position'],
         ]);
 
         return $user;

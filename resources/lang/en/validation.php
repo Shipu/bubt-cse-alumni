@@ -159,7 +159,10 @@ return [
         'designation' => 'Designation',
         'type' => 'Type',
         'mobile' => 'Mobile',
-        'passing_year' => 'Passing Year'
+        'passing_year' => 'Passing Year',
+        'reference' => 'Reference',
+        'company_name' => 'Company Name',
+        'job_position' => 'Job Position',
     ],
 
 ];
