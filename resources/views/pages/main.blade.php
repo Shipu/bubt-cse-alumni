@@ -14,7 +14,9 @@
                         You are most welcome to stay connected with the CSE alumni living and working in Bangladesh and other countries.
                     </p>
                     <div class="cta">
-                        <a class="btn btn-lg btn-warning btn-icon icon-right" href="{{ backpack_url('register') }}">Registration <i class="fas fa-chevron-right"></i></a> &nbsp;
+{{--                        <a class="btn btn-lg btn-warning btn-icon icon-right" href="{{ backpack_url('register') }}">Registration <i class="fas fa-chevron-right"></i></a> &nbsp;--}}
+                        <a class="btn btn-lg btn-warning btn-icon icon-right" target="_blank" href="{{ url('assets/uploads/BUBT_CSE_Alumni_Constitution-2019.pdf') }}">Constitution <i class="fas fa-file"></i></a> &nbsp;
+
                         {{--                    <div class="mt-3 text-job">--}}
                         {{--                        MIT License &nbsp;&nbsp;•&nbsp;&nbsp; Version: 2.2.0--}}
                         {{--                    </div>--}}

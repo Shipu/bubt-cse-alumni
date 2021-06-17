@@ -57,6 +57,7 @@
                         Rupnagar, Dhaka - 1216
                     </p>
                     <p>© With <i class="fas fa-heart text-danger"></i> handcrafted by <a href="http://fb.me/to.shipu" target="_blank">Shipu Ahamed </a></p>
+                    <p>BUBT CSE Alumni © {{ date('Y') }} (V-{{ env('APP_VERSION', 'Beta') }})</p>
                     <div class="mt-4 social-links">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
